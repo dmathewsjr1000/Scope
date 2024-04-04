@@ -94,16 +94,17 @@ console.log(typeof grade);
 
 if (grade >= 90) {
 
-    console.log('You Ace the class your grade is A');    
-    if(grade < 90 && grade >= 80){
-        console.log('You did the Great work class your grade is B');  
+    console.log('You Ace the class your grade is A');  
+}  
+   else if(grade < 90 && grade >= 80){
+        console.log('You did Great work your class grade is B');  
     }    
-    if (grade < 80 && grade >= 70) {
-        console.log('You did the work class your grade is C');   
+    else if (grade < 80 && grade >= 70) {
+        console.log('You did the work your class grade is C');   
     }
-    if (grade < 70 && grade >= 60) {
+    else if (grade < 70 && grade >= 60) {
         console.log('You did the bare minimum your grade is D');   
     }
-} else {
+ else {
     console.log('You did not even try your grade is F');
 }
